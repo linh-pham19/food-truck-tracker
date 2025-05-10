@@ -7,3 +7,7 @@ MVP features:
  - Price range
  - If possible: how long the truck will be there
  - All info will disappear after 24 hours
+- User can search for nearby food trucks in real-time
+- User can rate the food truck.  
+
+
