@@ -3,4 +3,8 @@ Description: An app where user can report the location of a food truck by droppi
 An interactive map where users can drop a pin to report the following information of the food truck: Type of cuisine, Location (detailed instructions such as "in front of xyz building"), price range.
 User can search for nearby food trucks in real-time
 User can rate the food truck.
+
+![Food Truck](public/TruckFinderMVPUI.png)
+This is the UI for the MVP features. 
+
 Link to our Kanban board: https://github.com/users/linh-pham19/projects/2
