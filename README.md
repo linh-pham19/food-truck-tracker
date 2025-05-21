@@ -7,4 +7,6 @@ User can rate the food truck.
 ![Food Truck](public/TruckFinderMVPUI.png)
 This is the UI for the MVP features. 
 
+Currently working on: integrating Google Maps API using TypeScript
+
 Link to our Kanban board: https://github.com/users/linh-pham19/projects/2
