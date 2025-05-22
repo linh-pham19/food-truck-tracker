@@ -1,8 +1,10 @@
+import { MapProvider } from "@/providers/mapProviders";
 import Image from "next/image";
 // import { useState } from "react";
 
 export default function Home() {
   return (
+    <MapProvider>
     <main>
       <header>
         <h1>I am a food truck</h1>
@@ -11,5 +13,7 @@ export default function Home() {
         <p>Track me on the map!</p>
       </section>
     </main>
+    </MapProvider>
+
   );
 }
