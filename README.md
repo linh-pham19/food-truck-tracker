@@ -4,9 +4,6 @@ An interactive map where users can drop a pin to report the following informatio
 User can search for nearby food trucks in real-time
 User can rate the food truck.
 
-![Food Truck](public/TruckFinderMVPUI.png)
-This is the UI for the MVP features. 
-
 Currently working on: integrating Google Maps API using TypeScript
 
 Link to our Kanban board: https://github.com/users/linh-pham19/projects/2
