@@ -1,22 +1,27 @@
 import Maps from "@/maps/maps";
-import { MapProvider } from "@/providers/mapProviders";
-import Image from "next/image";
 // import { useState } from "react";
 
 export default function Home() {
   return (
+    <main className="container">
+      <header className="navbar">
+        <nav>
+        <h1>I am a food truck</h1>
+        </nav>
+      </header>
+      <section className="search-section">
+        <input type="text" placeholder="Search for food trucks..." />
+        <button>Search</button>
+      </section>
+      <section className="map-section">
+ 
+        <br/>
     <Maps>
-      
+
     </Maps>
-    // <Maps>
-    // <main>
-    //   <header>
-    //     <h1>I am a food truck</h1>
-    //   </header>
-    //   <section>
-    //     <p>Track me on the map!</p>
-    //   </section>
-    // </main>
-    // </Maps>
+      </section>
+    </main>
+   
+  
   );
 }

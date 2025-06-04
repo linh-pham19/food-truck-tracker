@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-:root {
+/* :root {
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -23,4 +23,93 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+} */
+/* Ensure the html and body take up the full viewport */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; /* Prevent scrolling caused by extra white space */
+}
+
+/* General container styling */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  width: 100vw; /* Full viewport width */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Include padding and border in width/height calculations */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/* Search section styling */
+.search-section {
+  padding: 1rem;
+  text-align: center;
+  background-color: black
+}
+.search-box {
+  width: 80%;
+  max-width: 400px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Map section styling */
+.map-section {
+  flex-grow: 1;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.map-section > div {
+  width: 100%;
+  height: 100%;
+}
+
+/* Responsive Design: Media Queries */
+@media (max-width: 768px) {
+  .navbar h1 {
+    font-size: 1.2rem;
+  }
+
+  .search-box {
+    width: 90%;
+    font-size: 0.9rem;
+  }
+
+  .search-button {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar h1 {
+    font-size: 1rem;
+  }
+
+  .search-box {
+    width: 100%;
+    font-size: 0.8rem;
+  }
+
+  .search-button {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+  }
 }
